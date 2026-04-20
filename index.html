@@ -3,47 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Zenith Wellness</title>
 </head>
 <body>
-    <header>
-        <nav>
-        <ul>
-            <li><h1>Zenith Wellness</h1></li>
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-            <li>Therapist</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+  <div class="page-wrapper">
+    
+    <header class="main-header">
+      <a href="index.html"><h1 class="site-title">Zenith Wellness</h1></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Therapists</a>
+        <a href="#" class="nav-link">Contact</a>
+      </nav>
     </header>
-    <!---Home-section--->
-<Section>
-    <div>
-        <div><h2> Zenith Wellness</h2></div>
-       <p>Find Your way back <p> to balance</p></p>
-       <div>
-         <p> Whether you're navigating burnout, anxiety, or simply searching for stillness — Zenith Wellness offers a gentle, holistic path toward emotional clarity and lasting wellbeing.</p>
-        <ul>
-            <li>
-                Guided by licensed therapists and certified wellness practitioners
-            </li>
-            <li>
-                Personalised paths for burnout, anxiety, and emotional renewal
-            </li>
-        </ul>
-         <div></div>
-         <button>Get Started Now</button>
-         <a href="#">Explore Services</a>
-       </div>
-    </div>
-     
-    <div>
-        <img src="./img/wellness 3.jpg" alt="medidating ">
-    </div>
 
+    <section class="intro-section">
+      <div class="intro-container">
+        <div class="intro-title"><h2>Zenith Wellness</h2></div>
+        <p class="intro-text">Find Your way back <span>to balance</span></p>
+        <div class="home3">
+          <p>
+            Whether you're navigating burnout, anxiety, or simply searching for
+            stillness — Zenith Wellness offers a gentle, holistic path toward
+            emotional clarity and lasting wellbeing.
+          </p>
 
-</Section>
+          <ul>
+            <li>Guided by licensed therapists and certified wellness practitioners</li>
+            <li>Personalised paths for burnout, anxiety, and emotional renewal</li>
+          </ul>
+
+          <div>
+            <button class="buttons">Get Started Now</button>
+            <a href="#" class="cta-button">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="./img/wellness 3.jpg" alt="meditating">
+      </div>
+    </section>
+
+  </div>
 </body>
 </html>
